@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Contact App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      theme: ThemeData.light(
+        // primarySwatch: Colors.blue,
       ),
       home: ContactPage1(),
     );
